@@ -1,27 +1,29 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
-date: 2022-10-24
-type: landing
+title: PB1
+date: 2025-10-13
+type: Portfolio
 
 design:
   # Default section spacing
   spacing: '6rem'
 
 sections:
-  - block: resume-biography-3
+  - block: Portfolio
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ''
+      username: Kang seok min
+      text: |-
+        안녕하세요.
+        전북대학교 컴퓨터공학부 21학번 강석민입니다.
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
+        text: Download
         url: uploads/resume.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: '강석민'
+        education: '전북대학교 컴퓨터공학부'
+        interests: '노인용 어플리케이션'
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
@@ -31,14 +33,11 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: 'My Portfolio'
+      subtitle: 'PB1'
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        강석민의 포트폴리오
+        초급프로젝트 과제1
     design:
       columns: '1'
   - block: collection
