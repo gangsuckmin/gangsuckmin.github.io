@@ -9,10 +9,10 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: Portfolio
+  - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: Kang seok min
+      username: admin
       text: |-
         안녕하세요.
         전북대학교 컴퓨터공학부 21학번 강석민입니다.
