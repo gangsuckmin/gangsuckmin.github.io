@@ -65,7 +65,7 @@ education:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
   - area: WHO
-    institution: 컴퓨터인공지능학부 학술 동아리
+    institution: 컴퓨터공학부 학술 동아리
     date_start: 2013-09-01
     date_end: 2015-05-31
     summary: |
