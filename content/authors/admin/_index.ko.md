@@ -42,11 +42,15 @@ profiles:
     url: https://github.com/gangsuckmin
 
 interests:
-  - C/C++/C#
+  - C
+  - C++
+  - C#
   - Java
   - Python
-  - HTML/CSS
-  - Typescript
+  - HTML
+  - CSS
+  - JavaScript
+  - TypeScript
   - Swift
   - React
   - SQL
