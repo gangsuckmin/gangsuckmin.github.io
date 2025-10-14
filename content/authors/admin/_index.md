@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Kang Seokmin
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: 'Kahng Suk-min'
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Kang
+last_name: Seokmin
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Junior Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -34,12 +34,12 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'kksm021@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/gangsuckmin
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/alexjohnsonai/
   - icon: academicons/google-scholar
@@ -48,18 +48,19 @@ profiles:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
+  - 물리적인 느낌을 주는 버튼 어플
   - Computer Vision
   - Reinforcement Learning
   - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: Computer Science
+    institution: JBNU
+    date_start: 2021-03-01
+    date_end: 2027-02-01
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. 
+      Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
