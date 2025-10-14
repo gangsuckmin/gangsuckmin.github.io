@@ -77,7 +77,7 @@ education:
 
       Specialized in machine learning and robotics.
   - area: 견우직녀
-    institution: 공과대학 밴드 동아리
+    institution: 공대 밴드 동아리
     date_start: 2009-09-01
     date_end: 2013-05-31
     summary: |
