@@ -16,7 +16,7 @@ sections:
       text: '2000.02.11'
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: 자기 소개
+        text: 자기소개
         url: uploads/resume.pdf
       headings:
         about: '강석민'
