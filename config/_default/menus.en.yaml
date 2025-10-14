@@ -4,6 +4,9 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: 한국어
+    url: /ko/
+    weight: 9999
   - name: Bio
     url: /
     weight: 10
