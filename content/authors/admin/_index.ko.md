@@ -67,11 +67,14 @@ education:
       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. 
       Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+      text: '홈페이지'
+      url: 'https://csai.jbnu.ac.kr/csai/index.do'
   - area: WHO
     institution: 컴공 학술 동아리
     url: 'https://csai.jbnu.ac.kr/csai/29028/subview.do?enc=Zm5jdDF8QEB8JTJGamJudVByb2ZsJTJGY3NhaSUyRjc5MSUyRjY0MzclMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMSUyNmZpbmRUeXBlJTNEJTI2ZmluZFdvcmQlM0QlMjY%3D'
+    button:
+      text: '홈페이지'
+      url: 'https://csai.jbnu.ac.kr/csai/29028/subview.do?enc=Zm5jdDF8QEB8JTJGamJudVByb2ZsJTJGY3NhaSUyRjc5MSUyRjY0MzclMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMSUyNmZpbmRUeXBlJTNEJTI2ZmluZFdvcmQlM0QlMjY%3D'
     date_start: 2013-09-01
     date_end: 2015-05-31
     summary: |
@@ -81,6 +84,9 @@ education:
   - area: 견우직녀
     institution: 공대 밴드 동아리
     url: 'https://www.youtube.com/@견우직녀-r2m'
+    button:
+      text: '유튜브'
+      url: 'https://www.youtube.com/@%EA%B2%AC%EC%9A%B0%EC%A7%81%EB%85%80-r2m'
     date_start: 2009-09-01
     date_end: 2013-05-31
     summary: |
