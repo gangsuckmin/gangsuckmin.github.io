@@ -21,8 +21,12 @@ sections:
         text: Download
         url: uploads/resume.pdf
       headings:
-        about: '강석민'
-        education: '전북대학교 컴퓨터공학부'
+        about:
+          - name: '전북대학교'
+            url: https://www.jbnu.ac.kr/
+        education:
+          - name: '컴퓨터공학부'
+            url: https://csai.jbnu.ac.kr/csai/index.do
         interests: '노인용 어플리케이션'
     design:
       # Apply a gradient background
