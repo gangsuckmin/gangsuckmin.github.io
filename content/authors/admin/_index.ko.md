@@ -59,7 +59,7 @@ interests:
 
 education:
   - area: 컴퓨터공학부
-    institution: "전북대학교<br>컴퓨터공학 전공"
+    institution: 컴퓨터공학 전공
     date_start: 2021-03-01
     date_end: 2027-02-01
     summary: |
@@ -69,7 +69,7 @@ education:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
   - area: WHO
-    institution: "컴퓨터인공지능학부<br>학술 동아리"
+    institution: 컴공 학술 동아리
     date_start: 2013-09-01
     date_end: 2015-05-31
     summary: |
@@ -77,7 +77,7 @@ education:
 
       Specialized in machine learning and robotics.
   - area: 견우직녀
-    institution: "공과대학<br>밴드 동아리"
+    institution: 공과대학 밴드 동아리
     date_start: 2009-09-01
     date_end: 2013-05-31
     summary: |
