@@ -10,7 +10,7 @@ first_name: 석민
 last_name: 강
 
 # Pronouns (optional)
-pronouns: 姜 錫 旼
+pronouns: 姜錫旼
 
 # Status emoji
 status: 
