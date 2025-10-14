@@ -3,7 +3,7 @@
 title: 강석민
 
 # Name pronunciation (optional)
-name_pronunciation: '[강성민]'
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: 석민
