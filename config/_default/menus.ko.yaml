@@ -4,10 +4,7 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: English
-    url: /en/
-    weight: 9999
-  - name: Bio
+  - name: 메인
     url: /
     weight: 10
   - name: Papers
