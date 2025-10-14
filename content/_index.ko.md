@@ -13,12 +13,10 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: |-
-        안녕하세요.
-        전북대학교 컴퓨터공학부 21학번 강석민입니다.
+      text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: 이력서
+        text: 자기 소개
         url: uploads/resume.pdf
       headings:
         about: '강석민'
