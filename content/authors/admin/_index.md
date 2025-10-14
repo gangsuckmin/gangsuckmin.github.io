@@ -35,7 +35,7 @@ organizations:
 profiles:
   - icon: at-symbol
     url: 'mailto:kksm021@gmail.com'
-    label: E-mail Me
+    label: 'E-mail Me'
   - icon: brands/x
     url: https://twitter.com/AlexAIResearch
   - icon: brands/github
