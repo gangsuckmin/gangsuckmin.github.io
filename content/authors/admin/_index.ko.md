@@ -27,8 +27,8 @@ role: 초급 개발자
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 전북대학교
-    url: https://www.jbnu.ac.kr/
+  - name: 블로그
+    url: https://blog.naver.com/kksm021
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -42,14 +42,20 @@ profiles:
     url: https://github.com/gangsuckmin
 
 interests:
-  - 물리적인 느낌을 주는 버튼 어플
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - C/C++/C#
+  - Java
+  - Python
+  - HTML/CSS
+  - Typescript
+  - Swift
+  - React
+  - SQL
+  - MongoDB
+  - AWS
 
 education:
-  - area: Computer Science
-    institution: JBNU
+  - area: 컴퓨터공학부
+    institution: 컴퓨터공학 전공
     date_start: 2021-03-01
     date_end: 2027-02-01
     summary: |
@@ -58,16 +64,16 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+  - area: WHO
+    institution: 컴퓨터인공지능학부 학술 동아리
     date_start: 2013-09-01
     date_end: 2015-05-31
     summary: |
       GPA: 4.0/4.0
 
       Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+  - area: 견우직녀
+    institution: 공과대학 밴드 동아리
     date_start: 2009-09-01
     date_end: 2013-05-31
     summary: |

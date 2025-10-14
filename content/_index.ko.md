@@ -18,12 +18,12 @@ sections:
         전북대학교 컴퓨터공학부 21학번 강석민입니다.
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download
+        text: 이력서
         url: uploads/resume.pdf
       headings:
         about: '강석민'
-        education: '전북대학교 컴퓨터공학부'
-        interests: '노인용 어플리케이션'
+        education: '전북대학교'
+        interests: '컴퓨터공학'
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
