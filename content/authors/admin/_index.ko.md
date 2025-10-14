@@ -1,19 +1,19 @@
 ---
 # Display name
-title: Kang Seokmin
+title: 강석민
 
 # Name pronunciation (optional)
-name_pronunciation: 'Kahng Suk-min'
+name_pronunciation: '강석민'
 
 # Full name (for SEO)
-first_name: Kang
-last_name: Seokmin
+first_name: 석민
+last_name: 강
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: 남성
 
 # Status emoji
-status:
+status: 
   icon: 🚀
 
 # Is this the primary user of the site?
@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Junior Developer
+role: 초급 개발자
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: 전북대학교
+    url: https://www.jbnu.ac.kr/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -36,16 +36,12 @@ profiles:
   - icon: at-symbol
     url: 'mailto:kksm021@gmail.com'
     label: 'E-mail Me'
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  - icon: brands/instagram
+    url: https://www.instagram.com/gangsuckmin
+  - icon: brands/blog
+    url: https://blog.naver.com/kksm021
   - icon: brands/github
     url: https://github.com/gangsuckmin
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
   - 물리적인 느낌을 주는 버튼 어플
