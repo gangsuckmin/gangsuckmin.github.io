@@ -60,6 +60,7 @@ interests:
 education:
   - area: 컴퓨터공학부
     institution: 컴퓨터공학 전공
+    url: 'https://csai.jbnu.ac.kr'
     date_start: 2021-03-01
     date_end: 2027-02-01
     summary: |
@@ -70,6 +71,7 @@ education:
       url: 'https://example.com/thesis.pdf'
   - area: WHO
     institution: 컴공 학술 동아리
+    url: 'https://csai.jbnu.ac.kr/csai/29028/subview.do?enc=Zm5jdDF8QEB8JTJGamJudVByb2ZsJTJGY3NhaSUyRjc5MSUyRjY0MzclMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMSUyNmZpbmRUeXBlJTNEJTI2ZmluZFdvcmQlM0QlMjY%3D'
     date_start: 2013-09-01
     date_end: 2015-05-31
     summary: |
@@ -78,6 +80,7 @@ education:
       Specialized in machine learning and robotics.
   - area: 견우직녀
     institution: 공대 밴드 동아리
+    url: 'https://www.youtube.com/@견우직녀-r2m'
     date_start: 2009-09-01
     date_end: 2013-05-31
     summary: |
