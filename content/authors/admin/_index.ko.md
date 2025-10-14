@@ -3,14 +3,14 @@
 title: 강석민
 
 # Name pronunciation (optional)
-name_pronunciation: '강석민'
+name_pronunciation: '[강성민]'
 
 # Full name (for SEO)
 first_name: 석민
 last_name: 강
 
 # Pronouns (optional)
-pronouns: 남성
+pronouns: 2000.02.11
 
 # Status emoji
 status: 
@@ -38,7 +38,8 @@ profiles:
     label: 'E-mail Me'
   - icon: brands/instagram
     url: https://www.instagram.com/gangsuckmin
-  - icon: brands/blog
+  - icon: blog
+    icon_pack: fab
     url: https://blog.naver.com/kksm021
   - icon: brands/github
     url: https://github.com/gangsuckmin
