@@ -38,9 +38,6 @@ profiles:
     label: 'E-mail Me'
   - icon: brands/instagram
     url: https://www.instagram.com/gangsuckmin
-  - icon: blog
-    icon_pack: fab
-    url: https://blog.naver.com/kksm021
   - icon: brands/github
     url: https://github.com/gangsuckmin
 
