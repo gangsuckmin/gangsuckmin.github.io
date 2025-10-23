@@ -7,21 +7,21 @@ main:
   - name: 메인
     url: /
     weight: 10
-  - name: Papers
+  - name: 소속
     url: /#papers
     weight: 11
-  - name: Talks
+  - name: 전공
     url: /#talks
     weight: 12
-  - name: News
+  - name: 관심사
     url: /#news
     weight: 13
-  - name: Experience
+  - name: 경력
     url: experience/
     weight: 20
-  - name: Projects
+  - name: 프로젝트
     url: projects/
     weight: 30
-  - name: Courses
+  - name: 블로그
     url: courses/
     weight: 40
