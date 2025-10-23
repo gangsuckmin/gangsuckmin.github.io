@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: '2000.02.11'
+      text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
         text: 자기소개
@@ -34,10 +34,9 @@ sections:
       title: 'My Portfolio'
       subtitle: 'PB1'
       text: |-
-        강석민의 포트폴리오
-        초급프로젝트 과제1
     design:
       columns: '1'
+      
   - block: collection
     id: papers
     content:
@@ -49,6 +48,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+      
   - block: collection
     content:
       title: Recent Publications

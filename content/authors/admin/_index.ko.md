@@ -68,15 +68,15 @@ education:
     date_start: 2021-03-01
     date_end: 
     summary: |
-      전북대학교 컴퓨터공학부 컴퓨터공학 전공 3학년
+      전북대학교 컴퓨터공학부 3학년
+  
   - area: WHO
     institution: 컴공 학술 동아리
-    date_start: 2013-09-01
+    date_start: 2025-03-01
     date_end: 
     summary: |
-      전북대학교 컴퓨터공학부 학술 동아리 
-
-      Specialized in machine learning and robotics.
+      전북대학교 컴퓨터공학부 학술 동아리
+      
   - area: 견우직녀
     institution: 공대 밴드 동아리
     url: 'https://www.youtube.com/@견우직녀-r2m'
@@ -106,7 +106,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 관심사
     items:
       - name: Python & PyTorch
         description: ''
@@ -120,7 +120,23 @@ skills:
         description: ''
         percent: 85
         icon: cloud
-  - name: Hobbies
+  - name: 진로
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking in the Rockies
+        description: ''
+        percent: 80
+        icon: person-simple-walk
+      - name: Building Custom PCs
+        description: ''
+        percent: 90
+        icon: cpu-chip
+      - name: Sci-Fi Reading
+        description: ''
+        percent: 70
+        icon: book-open
+  - name: 목표
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
@@ -138,9 +154,9 @@ skills:
         icon: book-open
 
 languages:
-  - name: English
-    percent: 100
-  - name: Spanish
+  - name: 한국어
+    percent: 50
+  - name: 영어
     percent: 50
 
 # Awards.
