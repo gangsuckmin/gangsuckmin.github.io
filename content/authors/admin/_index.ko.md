@@ -66,13 +66,13 @@ education:
     institution: 컴퓨터공학 전공
     url: 'https://csai.jbnu.ac.kr'
     date_start: 2021-03-01
-    date_end: 현재
+    date_end: 
     summary: |
       전북대학교 컴퓨터공학부 컴퓨터공학 전공 3학년
   - area: WHO
     institution: 컴공 학술 동아리
     date_start: 2013-09-01
-    date_end: 현재
+    date_end: 
     summary: |
       전북대학교 컴퓨터공학부 학술 동아리 
 
