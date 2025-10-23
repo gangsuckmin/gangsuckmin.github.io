@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: PB1
+title: 메인
 date: 2025-10-13
 type: Portfolio
 

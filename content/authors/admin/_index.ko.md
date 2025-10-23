@@ -3,7 +3,7 @@
 title: 강석민
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: '전북대학교 컴퓨터공학부 3학년 강석민입니다'
 
 # Full name (for SEO)
 first_name: 석민
@@ -14,7 +14,7 @@ pronouns: 姜錫旼
 
 # Status emoji
 status: 
-  icon: 🚀
+  icon: 💻
 
 # Is this the primary user of the site?
 superuser: true
