@@ -66,6 +66,8 @@ features:
 
 favicon: "media/favicon.png"
 
+icon: "media/favicon.png"
+
 assets:
   css:
     - "css/custom.css"
