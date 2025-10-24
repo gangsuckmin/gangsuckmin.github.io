@@ -1,5 +1,6 @@
 .navbar .navbar-brand img
 {
-    height:  45px;
+    height:  48px; !important;
+    width: auto; !important;
     margin-left: 5rem !important;
 }
