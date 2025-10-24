@@ -37,6 +37,9 @@ header:
     logo:
       filename: "logo.png"
       text: false
+      style:
+        margin-left: 2rem
+        height: 2rem
 
 # Site footer
 footer:
