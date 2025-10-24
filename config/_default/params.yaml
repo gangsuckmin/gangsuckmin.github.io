@@ -34,9 +34,11 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo:
-      image: "images/logo.png"
-      text: false
+
+branding:
+  logo:
+    image: "media/logo.png"
+    text: false
 
 # Site footer
 footer:
