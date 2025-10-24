@@ -38,7 +38,7 @@ header:
 branding:
   logo:
     image: "media/logo.png"
-    text: MyLogo
+    text: false
 
 # Site footer
 footer:
