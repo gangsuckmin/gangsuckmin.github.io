@@ -36,7 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       filename: "logo.png"
-      text: "강석민의 홈페이지"git
+      text: "강석민의 홈페이지"
       style:
         margin-left: 2rem
         height: 2rem
