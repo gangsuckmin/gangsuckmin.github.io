@@ -51,8 +51,8 @@ links:
   - type: video
     url: ""
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Featured images
+# To use, add an images named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
