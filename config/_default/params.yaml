@@ -35,7 +35,7 @@ header:
     show_search: false
     show_theme_chooser: true
     logo:
-      filename: "logo.png"
+      filename: "logo.svg"
       text: false
       style:
         margin-left: 2rem
