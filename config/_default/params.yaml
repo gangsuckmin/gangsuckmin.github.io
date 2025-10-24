@@ -34,6 +34,7 @@ header:
     fixed_to_top: true
     show_search: false
     show_theme_chooser: true
+    title_align: left
     logo:
       filename: "logo.png"
       text: "강석민의 홈페이지"

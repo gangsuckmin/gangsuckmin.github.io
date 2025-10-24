@@ -1,6 +1,7 @@
 .navbar .navbar-brand img
 {
-    height:  30px; !important;
-    width: auto; !important;
-    margin-left: 10rem !important;
+    height:  30px !important;
+    width: auto !important;
+    margin-left: 5rem !important;
+    margin-top: -5px !important;
 }
