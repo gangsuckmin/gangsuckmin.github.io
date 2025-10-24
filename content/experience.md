@@ -12,6 +12,7 @@ design:
 sections:
   - block: resume-experience
     content:
+      title: 소속
       username: admin
     design:
       # Hugo date format
@@ -20,7 +21,7 @@ sections:
       is_education_first: false
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: 관심사
       username: admin
     design:
       show_skill_percentage: false
@@ -30,6 +31,6 @@ sections:
       username: admin
   - block: resume-languages
     content:
-      title: Languages
+      title: 언어
       username: admin
 ---
