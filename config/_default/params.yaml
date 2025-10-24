@@ -64,9 +64,7 @@ features:
   privacy_pack:
     enable: false
 
-favicon: "favicon-2.png"
-
-icon: "favicon-2.png"
+icon: "icon.png"
 
 assets:
   css:
