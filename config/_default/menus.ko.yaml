@@ -22,3 +22,15 @@ main:
   - name: 프로젝트
     url: projects/
     weight: 30
+  - name: MyBucket
+    url: projects/scikit
+    parent: projects
+    weight: 30.1
+  - name: QatarDraw
+    url: projects/pandas
+    parent: projects
+    weight: 30.2
+  - name: Galendar
+    url: projects/pytorch
+    parent: projects
+    weight: 30.3
