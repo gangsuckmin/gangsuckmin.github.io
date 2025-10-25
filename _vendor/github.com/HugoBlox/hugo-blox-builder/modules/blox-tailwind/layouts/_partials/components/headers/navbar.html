@@ -59,9 +59,17 @@
       {{ $active := eq $menuURL $pageURL }}
       {{ if .HasChildren }}
       <li class="nav-item nav-dropdown group relative">
-            <span
-              role="button"
-              tabindex="0"
+            {{ $url := "" }}
+            {{- if findRE `^#` .URL -}}
+              {{- if not $.IsHome -}}
+                {{- $url = site.Home.RelPermalink -}}
+              {{- end }}
+              {{- $url = .URL -}}
+            {{- else -}}
+              {{- $url = .URL | relLangURL -}}
+            {{- end -}}
+            <a
+              href="{{$url}}"
               aria-haspopup="true"
               aria-expanded="false"
               class="nav-link cursor-pointer select-none {{ range .Children }}
@@ -71,10 +79,9 @@
               {{ end }} inline-flex items-center">
               {{ .Name }}
               <svg class="h-4 w-4 fill-current inline-block" viewBox="0 0 20 20">
-                <path
-                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
               </svg>
-            </span>
+            </a>
         <ul
           class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
           {{ range .Children }}
