@@ -5,9 +5,7 @@ links:
   - type: site
     url: https://github.com/pytorch/pytorch
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Windows
 ---
 
 사진을 담은 달력 프로그램
