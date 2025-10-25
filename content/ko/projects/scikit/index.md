@@ -1,15 +1,14 @@
 ---
-title: scikit-learn
-date: 2023-10-26
+title: MyBucket
+date: 2025-04-13
 links:
   - type: site
     url: https://github.com/scikit-learn/scikit-learn
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - JavaScript
+  
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+버킷리스트 웹페이지
 
 <!--more-->
