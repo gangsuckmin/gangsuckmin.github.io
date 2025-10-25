@@ -3,7 +3,7 @@ title: QatarDraw
 date: 2022-05-25
 links:
   - type: site
-    url: _https://github.com/pandas-dev/pandas
+    url: https://github.com/pandas-dev/pandas
 tags:
   - Java
 ---
