@@ -37,7 +37,7 @@ header:
     title_align: left
     logo:
       filename: "logo.png"
-      text: "강석민의 홈페이지"
+      text: " 강석민의 홈페이지"
       style:
         margin-left: 2rem
         height: 2rem
@@ -54,8 +54,8 @@ footer:
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2006년 1월 2일'
+  time_format: '15:04'
 
 # Site features
 features:

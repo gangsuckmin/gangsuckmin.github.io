@@ -3,8 +3,18 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
+ko:
+  languageCode: ko
+  languageName: 한국어
+  title: 강석민의 홈페이지
+  contentDir: content/ko
+  weight: 1
 en:
   languageCode: en-us
+  languageName: English
+  title: Seokmin's Homepage
+  contentDir: content/en
+  weight: 2
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
