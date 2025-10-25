@@ -2,6 +2,10 @@
 title: 'Experience'
 date: 2023-10-24
 type: landing
+image:
+  filename: "media/chiwawa.png"
+  focal_point: "center"
+  preview_only: false
 
 design:
   spacing: '5rem'
