@@ -20,6 +20,7 @@ main:
     url: experience/
     weight: 20
   - name: 프로젝트
+    identifier: projects
     url: projects/
     weight: 30
   - name: MyBucket
