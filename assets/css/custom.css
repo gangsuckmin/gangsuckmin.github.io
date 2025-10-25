@@ -5,3 +5,14 @@
     margin-left: 5rem !important;
     margin-top: -5px !important;
 }
+
+/* 라이트 모드 배경색 */
+:root
+{
+    --color-background: #ffffff;  /* 흰색 */
+}
+
+/* 다크 모드 배경색 */
+[data-theme="dark"] {
+    --color-background: #0f172a;  /* 어두운 남색 계열 */
+}
