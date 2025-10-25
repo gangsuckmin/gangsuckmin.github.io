@@ -7,13 +7,13 @@ main:
   - name: 홈
     url: /
     weight: 10
-  - name: 소속
+  - name: 자기소개
     url: /#papers
     weight: 11
-  - name: 전공
+  - name: 소속
     url: /#talks
     weight: 12
-  - name: 관심사
+  - name: 전공
     url: /#news
     weight: 13
   - name: 경력
@@ -22,6 +22,3 @@ main:
   - name: 프로젝트
     url: projects/
     weight: 30
-  - name: 블로그
-    url: courses/
-    weight: 40
