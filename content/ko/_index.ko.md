@@ -3,6 +3,10 @@
 title: '홈'
 date: 2025-10-13
 type: Portfolio
+image:
+  filename: "media/favicon.png"
+  focal_point: "center"
+  preview_only: false
 
 design:
   # Default section spacing
