@@ -1,15 +1,13 @@
 ---
-title: PyTorch
-date: 2023-10-26
+title: Galendar
+date: 2022-04-21
 links:
-  - type: site
-    url: https://github.com/pytorch/pytorch
+  - type: file
+    url: uploads/plan.pdf
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Windows
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+사진을 담은 달력 프로그램
 
 <!--more-->

@@ -1,15 +1,10 @@
 ---
-title: Pandas
-date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/pandas-dev/pandas
+title: QatarDraw
+date: 2022-05-25
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Java
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+카타르 월드컵 조 추첨 프로그램
 
 <!--more-->

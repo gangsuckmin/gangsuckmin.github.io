@@ -7,7 +7,7 @@ design:
   spacing: '5rem'
 
 sections:
-  - block: features
+  - block: resume-experience
     content:
       title: "소속"
       text: ""
