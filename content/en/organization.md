@@ -1,5 +1,5 @@
 ---
-title: '소속'
+title: 'Affiliation'
 date: 2024-05-19
 type: landing
 
@@ -9,21 +9,21 @@ design:
 sections:
   - block: resume-experience
     content:
-      title: "소속"
+      title: "Affiliation"
       text: ""
       items:
-        - name: "전북대학교"
+        - name: "Jeonbuk National University"
           icon: "user"
           icon_pack: "fas"
-          description: "컴퓨터공학부 컴퓨터공학 전공: [Homepage](https://csai.jbnu.ac.kr/csai/index.do)"
+          description: "Department of Computer Engineering, Major in Computer Engineering: [Homepage](https://csai.jbnu.ac.kr/csai/index.do)"
         - name: "WHO"
           icon: "user"
           icon_pack: "fab"
-          description: "컴퓨터공학부 학술 연구 동아리: [GitHub](https://github.com/JBNU-WHO)"
-        - name: "견우직녀"
+          description: "Academic research club of the Department of Computer Engineering: [GitHub](https://github.com/JBNU-WHO)"
+        - name: "Gyeonwoo & Jiknyeo"
           icon: "user"
           icon_pack: "fas"
-          description: "공과대학 밴드 동아리: [Instagram](https://www.instagram.com/kyunzik/)"
+          description: "College of Engineering Band Club: [Instagram](https://www.instagram.com/kyunzik/)"
     design:
       view: card
       columns: 3
@@ -33,7 +33,7 @@ sections:
 
   - block: markdown
     content:
-      title: "전북대학교 위치"
+      title: "Location of Jeonbuk National University"
       text: |
         <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
           <iframe src="https://www.google.com/maps?q=35.8463,127.1295&z=15&output=embed"
@@ -41,5 +41,5 @@ sections:
                   loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen>
           </iframe>
         </div>
-        <p style="margin-top:0.75rem;">전북특별자치도 전주시 덕진구 백제대로 567 (전북대학교)</p>
+        <p style="margin-top:0.75rem;">567 Baekje-daero, Deokjin-gu, Jeonju-si, Jeonbuk Special Self-Governing Province (Jeonbuk National University)</p>
 ---

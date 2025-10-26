@@ -5,6 +5,6 @@ tags:
   - Java
 ---
 
-카타르 월드컵 조 추첨 프로그램
+Qatar world cup group draw simulator
 
 <!--more-->

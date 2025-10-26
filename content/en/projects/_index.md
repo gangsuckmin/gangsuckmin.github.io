@@ -11,7 +11,7 @@ design:
 sections:
   - block: collection
     content:
-      title: 프로젝트
+      title: Projects
       text:
       filters:
         folders:

@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: '홈'
+title: 'Home'
 date: 2025-10-13
 type: Portfolio
 image:
@@ -17,16 +17,16 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: '전북대학교 컴퓨터공학부 21학번'
+      text: 'Class of 2021, Department of Computer Engineering, Jeonbuk National University'
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: 자기소개
+        text: About Me
         url: /uploads/resume.pdf
         style: outline
       headings:
-        about: '강석민'
-        education: '전북대학교'
-        interests: '컴퓨터공학'
+        about: 'Kang Seok Min'
+        education: 'Jeonbuk National University'
+        interests: 'Computer Engineering'
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
@@ -37,44 +37,44 @@ sections:
   
   - block: markdown
     content:
-      title: '홈페이지 소개'
-      subtitle: 'PB1'
+      title: 'Website Overview'
+      subtitle: 'Portfolio Project 1'
       text: |-
         <div class="slider slider-full" id="home-slider">
           <div class="slides autoplay">
             <div class="slide">
               <img src="/media/slide1.jpg" alt="Slide 1">
               <div class="caption">
-                <div class="caption-title">자기 소개</div>
-                <div class="caption-subtitle">관심사/진로/목표</div>
+                <div class="caption-title">About Me</div>
+                <div class="caption-subtitle">Interests / Career / Goals</div>
               </div>
             </div>
             <div class="slide">
               <img src="/media/slide2.jpg" alt="Slide 2">
               <div class="caption">
-                <div class="caption-title">소속</div>
-                <div class="caption-subtitle">전북대학교/WHO/견우직녀</div>
+                <div class="caption-title">Affiliation</div>
+                <div class="caption-subtitle">Jeonbuk National University / WHO / Gyeonwoo & Jiknyeo</div>
               </div>
             </div>
             <div class="slide">
               <img src="/media/slide3.jpg" alt="Slide 3">
               <div class="caption">
-                <div class="caption-title">전공</div>
-                <div class="caption-subtitle">프로그래밍 언어/웹 개발/데이터베이스/시스템 및 클라우드</div>
+                <div class="caption-title">Major</div>
+                <div class="caption-subtitle">Programming Languages / Web Development / Database / Systems & Cloud</div>
               </div>
             </div>
             <div class="slide">
               <img src="/media/slide4.jpg" alt="Slide 4">
               <div class="caption">
-                <div class="caption-title">경력</div>
-                <div class="caption-subtitle">영재학급/ESD창의인재학교/에너지수호천사단/수효사효림원</div>
+                <div class="caption-title">Experience</div>
+                <div class="caption-subtitle">Gifted Class / ESD Creative Talent School / Energy Guardian Angels / Suhyo Sarye Institute</div>
               </div>
             </div>
             <div class="slide">
               <img src="/media/slide5.jpg" alt="Slide 5">
               <div class="caption">
-                <div class="caption-title">프로젝트</div>
-                <div class="caption-subtitle">QatarDraw/Galendar/MyBucket</div>
+                <div class="caption-title">Projects</div>
+                <div class="caption-subtitle">QatarDraw / Galendar / MyBucket</div>
               </div>
             </div>
           </div>

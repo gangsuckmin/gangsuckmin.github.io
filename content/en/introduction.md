@@ -1,5 +1,5 @@
 ---
-title: '자기소개'
+title: 'Introduction'
 date: 2024-05-19
 type: landing
 
@@ -9,26 +9,26 @@ design:
 sections:
   - block: features
     content:
-      title: "자기소개"
+      title: "About Me"
       text: ""
       items:
-        - name: "이름"
+        - name: "Name"
           icon: "user"
           icon_pack: "fas"
-          description: "강석민"
-        - name: "생년월일"
+          description: "Seokmin Kang"
+        - name: "Date of Birth"
           icon: "calendar"
           icon_pack: "fas"
-          description: "2000.02.11"
-        - name: "주소"
+          description: "February 11, 2000"
+        - name: "Address"
           icon: "map"
           icon_pack: "fas"
-          description: "서울시 서대문구 독립문공원길17"
-        - name: "연락처"
+          description: "17 Dongnimmun Park-gil, Seodaemun-gu, Seoul, South Korea"
+        - name: "Phone"
           icon: "phone"
           icon_pack: "fas"
-          description: "010-2390-539X"
-        - name: "이메일"
+          description: "+82-10-2390-539X"
+        - name: "Email"
           icon: "envelope"
           icon_pack: "fas"
           description: "kksm539X@jbnu.ac.kr"
@@ -36,22 +36,21 @@ sections:
           icon: "heart"
           icon_pack: "fas"
           description: "INFJ"
-        - name: "관심사"
+        - name: "Interests"
           icon: "briefcase"
           icon_pack: "fas"
-          description: "노년층을 위한 생활지원 앱 개발"
-        - name: "진로"
+          description: "Developing lifestyle support apps for the elderly"
+        - name: "Career Path"
           icon: "briefcase"
           icon_pack: "fas"
-          description: "모바일 앱 개발자"
-        - name: "목표"
+          description: "Mobile App Developer"
+        - name: "Goal"
           icon: "briefcase"
           icon_pack: "fas"
-          description: "사용자 친화적이고 사회적 가치를 가진 서비스를 구현"
+          description: "To create user-friendly services with social value"
     design:
       view: card
       columns: 3
       show_date: false
       show_read_time: false
       show_read_more: false
----

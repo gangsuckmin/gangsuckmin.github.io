@@ -8,6 +8,6 @@ tags:
   - Windows
 ---
 
-사진을 담은 달력 프로그램
+Photo-based calendar program
 
 <!--more-->
