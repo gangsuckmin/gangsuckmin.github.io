@@ -67,7 +67,7 @@ sections:
               <img src="/media/slide4.jpg" alt="Slide 4">
               <div class="caption">
                 <div class="caption-title">경력</div>
-                <div class="caption-subtitle">영재학급/ESD금천창의인재학교/에너지수호천사단/수효사효림원</div>
+                <div class="caption-subtitle">영재학급/ESD창의인재학교/에너지수호천사단/수효사효림원</div>
               </div>
             </div>
             <div class="slide">
@@ -91,8 +91,8 @@ sections:
             position: relative;
           }
           .slider-full {
-            width: 80%;
-            max-width: 1200px;
+            width: 100%;
+            max-width: 3000px;
             margin: 0 auto;
           }
           .slides {
