@@ -46,7 +46,7 @@ sections:
               <img src="/media/slide1.jpg" alt="Slide 1">
               <div class="caption">
                 <div class="caption-title">자기 소개</div>
-                <div class="caption-subtitle">강석민</div>
+                <div class="caption-subtitle">관심사/진로/목표</div>
               </div>
             </div>
             <div class="slide">
@@ -91,10 +91,9 @@ sections:
             position: relative;
           }
           .slider-full {
-            width: 100vw;
-            max-width: 100vw;
-            margin-left: calc(50% - 50vw);
-            margin-right: calc(50% - 50vw);
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
           }
           .slides {
             display: flex;
