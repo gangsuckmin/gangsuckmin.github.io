@@ -60,7 +60,7 @@ sections:
               <img src="/media/slide3.jpg" alt="Slide 3">
               <div class="caption">
                 <div class="caption-title">전공</div>
-                <div class="caption-subtitle">컴퓨터공학</div>
+                <div class="caption-subtitle">프로그래밍 언어/웹 개발/데이터베이스/시스템 및 클라우드</div>
               </div>
             </div>
             <div class="slide">
@@ -153,8 +153,8 @@ sections:
           .nav.next { right: 15px; }
         </style>
         <script>
-        (function(){
-          const root = document.querySelector('.slider');
+        window.addEventListener('load', function() {
+          const root = document.getElementById('home-slider');
           if (!root) return;
           const track = root.querySelector('.slides');
           const slides = Array.from(root.querySelectorAll('.slide'));
@@ -162,7 +162,7 @@ sections:
           const btnNext = root.querySelector('.next');
           let index = 0;
           const total = slides.length;
-          const intervalMs = 4000;
+          const intervalMs = 3000;
           let timer = null;
 
           function update() {
@@ -188,14 +188,12 @@ sections:
           btnNext && btnNext.addEventListener('click', () => { stop(); next(); start(); });
           btnPrev && btnPrev.addEventListener('click', () => { stop(); prev(); start(); });
 
-          // Pause autoplay on hover
           root.addEventListener('mouseenter', stop);
           root.addEventListener('mouseleave', start);
 
-          // Initialize
           update();
           start();
-        })();
+        });
         </script>
     design:
       columns: '1'

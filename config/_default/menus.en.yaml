@@ -7,14 +7,14 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: introduction
-    url: /#papers
+  - name: Introduction
+    url: introduction/
     weight: 11
   - name: Organization
-    url: /#talks
+    url: organization/
     weight: 12
   - name: Major
-    url: /#news
+    url: major/
     weight: 13
   - name: Experience
     url: experience/
