@@ -11,7 +11,7 @@ main:
     url: introduction/
     weight: 11
   - name: 소속
-    url: /#talks
+    url: organization/
     weight: 12
   - name: 전공
     url: /#news
