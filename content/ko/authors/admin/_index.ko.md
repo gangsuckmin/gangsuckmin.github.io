@@ -65,7 +65,7 @@ education:
   - area: 컴퓨터공학부
     institution: 컴퓨터공학 전공
     url: 'https://csai.jbnu.ac.kr'
-    date_start: 2021-03-01
+    date_start: 2021-03-02
     date_end: 
     summary: |
       전북대학교 컴퓨터공학부 3학년
