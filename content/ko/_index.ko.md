@@ -85,15 +85,16 @@ sections:
         <style>
           .slider {
             overflow: hidden;
-            width: 100%;
-            height: 800px;
+            width: 1000px;
+            height: 600px;
             position: relative;
           }
           .slides {
             display: flex;
             height: 100%;
-            animation: slide 20s infinite;
+            transition: transform 0.6s ease;
           }
+          .slides { z-index: 1; }
           .slide {
             flex: 0 0 100%;
             height: 100%;
@@ -139,19 +140,11 @@ sections:
             text-align: center;
             cursor: pointer;
             transition: background 0.3s ease;
+            z-index: 5;
           }
           .nav:hover { background: rgba(0,0,0,0.6); }
           .nav.prev { left: 15px; }
           .nav.next { right: 15px; }
-          /* 5 slides: hold each state briefly for readability */
-          @keyframes slide {
-            0%, 16%   { transform: translateX(0%); }
-            20%, 36%  { transform: translateX(-100%); }
-            40%, 56%  { transform: translateX(-200%); }
-            60%, 76%  { transform: translateX(-300%); }
-            80%, 96%  { transform: translateX(-400%); }
-            100%      { transform: translateX(0%); }
-          }
         </style>
         <script>
         (function(){
