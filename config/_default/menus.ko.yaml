@@ -14,7 +14,7 @@ main:
     url: organization/
     weight: 12
   - name: 전공
-    url: /#news
+    url: major/
     weight: 13
   - name: 경력
     url: experience/
