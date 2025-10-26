@@ -3,7 +3,7 @@ title: MyBucket
 date: 2025-04-13
 links:
   - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+    url: http://kangseokmin.dothome.co.kr/bucket.html
 tags:
   - JavaScript
   

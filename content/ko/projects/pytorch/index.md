@@ -2,8 +2,8 @@
 title: Galendar
 date: 2022-04-21
 links:
-  - type: site
-    url: https://github.com/pytorch/pytorch
+  - type: file
+    url: uploads/plan.pdf
 tags:
   - Windows
 ---

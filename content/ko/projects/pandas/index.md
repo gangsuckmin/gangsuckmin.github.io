@@ -1,9 +1,6 @@
 ---
 title: QatarDraw
 date: 2022-05-25
-links:
-  - type: ''
-    url: ''
 tags:
   - Java
 ---
