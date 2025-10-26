@@ -84,3 +84,4 @@ education:
     date_end: 2023-01-01
     summary: |
       Band club of the College of Engineering, Jeonbuk National University
+---
