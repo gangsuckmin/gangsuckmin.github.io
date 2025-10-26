@@ -67,9 +67,6 @@ features:
     enable: false
   privacy_pack:
     enable: false
-  search:
-    enable: true
-    type: fuse
 
 icon: "icon.png"
 
