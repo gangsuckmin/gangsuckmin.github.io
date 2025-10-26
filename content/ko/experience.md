@@ -15,27 +15,36 @@ design:
 
 # Page sections
 sections:
-  - block: resume-experience
+  - block: features
+
     content:
-      title: 소속
-      username: admin
+      title: "경력"
+      text: ""
+      items:
+        - name: "한국청소년연맹"
+          icon: "briefcase"
+          icon_pack: "fab"
+          description: "2010.03.02~2013.02.15"
+        - name: "ESD창의인재학교"
+          icon: "briefcase"
+          icon_pack: "fab"
+          description: "2016.03.16~2016.11.23"
+        - name: "수/과학영재학급"
+          icon: "briefcase"
+          icon_pack: "fas"
+          description: "2017.03.22~2017.12.18"
+        - name: "에너지수호천사단"
+          icon: "briefcase"
+          icon_pack: "fas"
+          description: "2017.04.03~2017.12.19"
+        - name: "수효사효림원"
+          icon: "briefcase"
+          icon_pack: "fas"
+          description: "2023.04.03~2025.01.03"
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: resume-skills
-    content:
-      title: 관심사
-      username: admin
-    design:
-      show_skill_percentage: false
-  - block: resume-awards
-    content:
-      title: Awards
-      username: admin
-  - block: resume-languages
-    content:
-      title: 언어
-      username: admin
+      view: card
+      columns: 4
+      show_date: false
+      show_read_time: false
+      show_read_more: false
 ---
