@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: 자기소개
-    url: /#papers
+    url: Introduction/
     weight: 11
   - name: 소속
     url: /#talks
