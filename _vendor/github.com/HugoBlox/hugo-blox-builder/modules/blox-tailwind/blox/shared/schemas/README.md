@@ -27,12 +27,12 @@ Add to your workspace `.vscode/settings.json`:
 ```json
 {
   "yaml.schemas": {
-    "https://hugoblox.com/schemas/landing-page.json": ["content/_index.md", "content/**/index.md"],
+    "https://hugoblox.com/schemas/landing-page.json": ["content/introduction.md", "content/**/index.md"],
     "https://hugoblox.com/schemas/sections.json": ["sections"]
   },
   "json.schemas": [
     {
-      "fileMatch": ["**/content/_index.md"],
+      "fileMatch": ["**/content/introduction.md"],
       "url": "https://hugoblox.com/schemas/landing-page.json"
     }
   ]

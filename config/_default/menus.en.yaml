@@ -7,7 +7,7 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Introduction
+  - name: introduction
     url: /#papers
     weight: 11
   - name: Organization
