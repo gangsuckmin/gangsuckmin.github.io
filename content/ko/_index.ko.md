@@ -44,23 +44,38 @@ sections:
           <div class="slides autoplay">
             <div class="slide">
               <img src="/media/slide1.jpg" alt="Slide 1">
-              <div class="caption">자기 소개</div>
+              <div class="caption">
+                <div class="caption-title">자기 소개</div>
+                <div class="caption-subtitle">강석민</div>
+              </div>
             </div>
             <div class="slide">
               <img src="/media/slide2.jpg" alt="Slide 2">
-              <div class="caption">소속</div>
+              <div class="caption">
+                <div class="caption-title">소속</div>
+                <div class="caption-subtitle">전북대학교/WHO/견우직녀</div>
+              </div>
             </div>
             <div class="slide">
               <img src="/media/slide3.jpg" alt="Slide 3">
-              <div class="caption">전공</div>
+              <div class="caption">
+                <div class="caption-title">전공</div>
+                <div class="caption-subtitle">컴퓨터공학</div>
+              </div>
             </div>
             <div class="slide">
               <img src="/media/slide4.jpg" alt="Slide 4">
-              <div class="caption">경력</div>
+              <div class="caption">
+                <div class="caption-title">경력</div>
+                <div class="caption-subtitle">영재학급/ESD창의인재학교/에너지수호천사단</div>
+              </div>
             </div>
             <div class="slide">
               <img src="/media/slide5.jpg" alt="Slide 5">
-              <div class="caption">프로젝트</div>
+              <div class="caption">
+                <div class="caption-title">프로젝트</div>
+                <div class="caption-subtitle">QatarDraw/Galendar/MyBucket</div>
+              </div>
             </div>
           </div>
           <button class="nav prev" aria-label="Previous slide">‹</button>
@@ -71,7 +86,7 @@ sections:
           .slider {
             overflow: hidden;
             width: 100%;
-            height: 400px;
+            height: 800px;
             position: relative;
           }
           .slides {
@@ -95,12 +110,19 @@ sections:
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            text-align: center;
             color: white;
+          }
+          .caption-title {
             font-size: 2.5rem;
             font-weight: bold;
             text-shadow: 0 2px 8px rgba(0,0,0,0.7);
-            text-align: center;
-            pointer-events: none;
+            margin-bottom: 0.5rem;
+          }
+          .caption-subtitle {
+            font-size: 1.5rem;
+            font-weight: 400;
+            text-shadow: 0 1px 5px rgba(0,0,0,0.6);
           }
           .nav {
             position: absolute;
@@ -131,6 +153,51 @@ sections:
             100%      { transform: translateX(0%); }
           }
         </style>
+        <script>
+        (function(){
+          const root = document.querySelector('.slider');
+          if (!root) return;
+          const track = root.querySelector('.slides');
+          const slides = Array.from(root.querySelectorAll('.slide'));
+          const btnPrev = root.querySelector('.prev');
+          const btnNext = root.querySelector('.next');
+          let index = 0;
+          const total = slides.length;
+          const intervalMs = 4000;
+          let timer = null;
+
+          function update() {
+            track.style.transform = 'translateX(-' + (index * 100) + '%)';
+          }
+          function next() {
+            index = (index + 1) % total;
+            update();
+          }
+          function prev() {
+            index = (index - 1 + total) % total;
+            update();
+          }
+          function start() {
+            if (timer) clearInterval(timer);
+            timer = setInterval(next, intervalMs);
+          }
+          function stop() {
+            if (timer) clearInterval(timer);
+            timer = null;
+          }
+
+          btnNext && btnNext.addEventListener('click', () => { stop(); next(); start(); });
+          btnPrev && btnPrev.addEventListener('click', () => { stop(); prev(); start(); });
+
+          // Pause autoplay on hover
+          root.addEventListener('mouseenter', stop);
+          root.addEventListener('mouseleave', start);
+
+          // Initialize
+          update();
+          start();
+        })();
+        </script>
     design:
       columns: '1'
       
