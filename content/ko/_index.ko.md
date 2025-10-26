@@ -85,8 +85,10 @@ sections:
         <style>
           .slider {
             overflow: hidden;
-            width: 1000px;
-            height: 600px;
+            width: 100%;
+            max-width: 1000px;
+            height: 400px;
+            margin: 0 auto; /* center horizontally */
             position: relative;
           }
           .slides {
