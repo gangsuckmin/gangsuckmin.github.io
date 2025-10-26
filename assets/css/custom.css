@@ -17,10 +17,10 @@
     --color-background: #0f172a;  /* 어두운 남색 계열 */
 }
 
-btn-outline:hover
+.btn-outline:hover
 {
     background-color: var(--color-primary);
-    color: white;
+    color: blue;
     transition: all 0.3s ease-in-out;
 }
 
