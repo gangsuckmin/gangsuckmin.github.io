@@ -40,7 +40,7 @@ sections:
       title: '홈페이지 소개'
       subtitle: 'PB1'
       text: |-
-        <div class="slider">
+        <div class="slider slider-full" id="home-slider">
           <div class="slides autoplay">
             <div class="slide">
               <img src="/media/slide1.jpg" alt="Slide 1">
@@ -67,7 +67,7 @@ sections:
               <img src="/media/slide4.jpg" alt="Slide 4">
               <div class="caption">
                 <div class="caption-title">경력</div>
-                <div class="caption-subtitle">영재학급/ESD창의인재학교/에너지수호천사단</div>
+                <div class="caption-subtitle">영재학급/ESD금천창의인재학교/에너지수호천사단/수효사효림원</div>
               </div>
             </div>
             <div class="slide">
@@ -86,10 +86,15 @@ sections:
           .slider {
             overflow: hidden;
             width: 100%;
-            max-width: 1400px;
-            height: 800px;
-            margin: 0 auto; /* center horizontally */
+            height: 600px;
+            margin: 0 auto;
             position: relative;
+          }
+          .slider-full {
+            width: 100vw;
+            max-width: 100vw;
+            margin-left: calc(50% - 50vw);
+            margin-right: calc(50% - 50vw);
           }
           .slides {
             display: flex;
