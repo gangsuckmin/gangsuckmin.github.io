@@ -1,31 +1,25 @@
-.navbar .navbar-brand img
-{
-    height:  30px !important;
-    width: auto !important;
-    margin-left: 5rem !important;
-    margin-top: -5px !important;
+
+
+/* navbar brand image (fallback selectors) */
+header .navbar-brand img, header .site-logo img {
+  height:30px !important; width:auto !important;
+  margin-left:5rem !important; margin-top:-5px !important;
 }
 
-/* 라이트 모드 배경색 */
-:root
-{
-    --color-background: #ffffff;  /* 흰색 */
+/* buttons (if the theme uses .btn utility classes) */
+.btn-outline:hover {
+  background-color: var(--color-primary);
+  color: blue;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  filter: brightness(0.9);
+  transition: filter 0.2s ease-in-out;
 }
 
-/* 다크 모드 배경색 */
-[data-theme="dark"] {
-    --color-background: #0f172a;  /* 어두운 남색 계열 */
-}
-
-.btn-outline:hover
-{
-    background-color: var(--color-primary);
-    color: blue;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-primary:hover
-{
-    filter: brightness(0.9);
-    transition: filter 0.2s ease-in-out;
+/* features block text justify - cover multiple structures */
+.features .feature .description,
+.hb-features .description,
+.feature .prose p {
+  text-align: justify;
 }
