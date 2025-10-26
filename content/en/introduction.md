@@ -2,6 +2,10 @@
 title: 'Introduction'
 date: 2024-05-19
 type: landing
+image:
+  filename: "media/favicon.png"   # /static/media/intro-cover.jpg 에 파일 두기
+  focal_point: "center"               # "center" / "top" / "bottom" / "left" / "right"
+  preview_only: false
 
 design:
   spacing: '5rem'

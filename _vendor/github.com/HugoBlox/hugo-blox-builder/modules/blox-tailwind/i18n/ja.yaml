@@ -223,7 +223,7 @@
 - id: authors
   translation: 著者
 
-# Search
+# search
 
 - id: search
   translation: 検索

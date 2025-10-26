@@ -223,7 +223,7 @@
 - id: authors
   translation: 作者
 
-# Search
+# search
 
 - id: search
   translation: 搜尋

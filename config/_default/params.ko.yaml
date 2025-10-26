@@ -1,0 +1,74 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+appearance:
+  mode: system
+  color: green
+
+params:
+  image: "media/favicon.png"
+
+# SEO
+marketing:
+  seo:
+    image: "media/favicon.png"
+    site_type: Person
+    local_business_type: ''
+    org_name: '전북대학교 컴퓨터공학부 강석민'
+    description: '전북대학교 컴퓨터공학부 강석민의 홈페이지'
+    twitter: ''
+  analytics:
+    google_analytics: 'G-V25JB7R6YR'
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: 'd1F28mvt6b0JD7w4W-t3T5wZhBGLdncAqsJeLMGZryM'
+    baidu: ''
+
+# Site header
+header:
+  navbar:
+    enable: true
+    block: 'navbar'
+    fixed_to_top: true
+    show_search: true
+    show_theme_chooser: true
+    title_align: left
+    logo:
+      filename: "logo.png"
+      text: "강석민의 홈페이지"
+      style:
+        margin-left: 2rem
+        height: 2rem
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} Me. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+# Localization
+locale:
+  date_format: '2006년 1월 2일'
+  time_format: '15:04'
+
+# Site features
+features:
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+
+icon: "icon.png"
+
+customCSS:
+  - css/custom.css

@@ -223,13 +223,13 @@
 - id: authors
   translation: Authors
 
-# Search
+# search
 
 - id: search
-  translation: Search
+  translation: search
 
 - id: search_placeholder
-  translation: Search...
+  translation: search...
 
 - id: search_results
   translation: results found

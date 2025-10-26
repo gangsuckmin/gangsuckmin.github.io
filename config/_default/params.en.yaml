@@ -14,11 +14,11 @@ params:
 # SEO
 marketing:
   seo:
-    image: "media/chiwawa.png"
+    image: "media/favicon.png"
     site_type: Person
     local_business_type: ''
-    org_name: '전북대학교 컴퓨터공학부 강석민'
-    description: '전북대학교 컴퓨터공학부 강석민의 홈페이지'
+    org_name: 'Seokmin Kang, Department of Computer Engineering, JBNU'
+    description: 'Homepage of Seokmin Kang, Department of Computer Engineering, Jeonbuk National University'
     twitter: ''
   analytics:
     google_analytics: 'G-V25JB7R6YR'
@@ -36,12 +36,12 @@ header:
     enable: true
     block: 'navbar'
     fixed_to_top: true
-    show_search: false
+    show_search: true
     show_theme_chooser: true
     title_align: left
     logo:
       filename: "logo.png"
-      text: " 강석민의 홈페이지"
+      text: "Seokmin's Homepage"
       style:
         margin-left: 2rem
         height: 2rem
@@ -58,8 +58,8 @@ footer:
 
 # Localization
 locale:
-  date_format: '2006년 1월 2일'
-  time_format: '15:04'
+  date_format: 'January 2, 2006'
+  time_format: '3:04 PM'
 
 # Site features
 features:
@@ -67,6 +67,9 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  search:
+    enable: true
+    type: fuse
 
 icon: "icon.png"
 

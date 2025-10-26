@@ -1,4 +1,4 @@
-// Hugo Blox Search functionality
+// Hugo Blox search functionality
 // Initialize search wrapper element globally
 let searchWrapper = null;
 

@@ -223,7 +223,7 @@
 - id: authors
   translation: Authors
 
-# Search
+# search
 
 - id: search
   translation: Hledání

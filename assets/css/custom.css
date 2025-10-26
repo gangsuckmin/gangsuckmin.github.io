@@ -1,5 +1,3 @@
-
-
 /* navbar brand image (fallback selectors) */
 header .navbar-brand img, header .site-logo img {
   height:30px !important; width:auto !important;
@@ -13,8 +11,9 @@ header .navbar-brand img, header .site-logo img {
   transition: all 0.3s ease-in-out;
 }
 .btn-primary:hover {
-  filter: brightness(0.9);
-  transition: filter 0.2s ease-in-out;
+  background-color: #2563eb !important; /* change color on hover */
+  color: #ffffff !important;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 /* features block text justify - cover multiple structures */
@@ -22,4 +21,37 @@ header .navbar-brand img, header .site-logo img {
 .hb-features .description,
 .feature .prose p {
   text-align: justify;
+}
+
+/* ---- text justify: apply broadly (>=5 contexts) ---- */
+.prose p { text-align: justify; }
+.markdown p { text-align: justify; }
+.card .content p { text-align: justify; }
+.hb-resume .item .summary, .hb-resume .item p { text-align: justify; }
+.features .feature .description,
+.hb-features .description,
+.feature .prose p { text-align: justify; }
+
+/* ---- image overlay helpers ---- */
+.img-overlay {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.img-overlay img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.img-overlay::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: rgba(0,0,0,0.35); /* transparency layer */
+}
+.img-overlay .overlay-text {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center; padding: 1.25rem;
+  color: #fff; font-weight: 600; font-size: clamp(1rem, 2vw, 1.5rem);
+  z-index: 1;
 }

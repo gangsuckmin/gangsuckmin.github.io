@@ -1,2 +1,8 @@
 defaultContentLanguage: ko
 defaultContentLanguageInSubdir: false
+baseURL: "https://gangsuckmin.github.io/"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

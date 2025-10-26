@@ -275,7 +275,7 @@
 - id: authors
   translation: Auteurs
 
-# Search
+# search
 
 - id: search
   translation: Rechercher

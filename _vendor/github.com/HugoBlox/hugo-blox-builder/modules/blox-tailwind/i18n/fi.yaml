@@ -223,7 +223,7 @@
 - id: authors
   translation: Kirjoittajat
 
-# Search
+# search
 
 - id: search
   translation: Etsi

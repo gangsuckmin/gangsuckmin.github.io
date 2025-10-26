@@ -223,12 +223,12 @@
 - id: authors # Authors
   translation: লেখকগন
 
-# Search
+# search
 
-- id: search # Search
+- id: search # search
   translation: অনুসন্ধান
 
-- id: search_placeholder # Search...
+- id: search_placeholder # search...
   translation: অনুসন্ধান করুন...
 
 - id: search_results # results found
