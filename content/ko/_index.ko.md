@@ -21,7 +21,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: 자기소개
-        url: uploads/resume.pdf
+        url: /uploads/resume.pdf
       headings:
         about: '강석민'
         education: '전북대학교'
