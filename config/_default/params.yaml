@@ -8,6 +8,9 @@ appearance:
   mode: system
   color: green
 
+params:
+  image: "media/favicon.png"
+
 # SEO
 marketing:
   seo:
