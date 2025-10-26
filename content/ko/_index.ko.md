@@ -34,11 +34,65 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  
   - block: markdown
     content:
-      title: 'My Portfolio'
+      title: '홈페이지 소개'
       subtitle: 'PB1'
       text: |-
+        <div class="slider autoplay">
+          <div class="slide">
+            <img src="/media/slide1.jpg" alt="Slide 1">
+            <div class="caption">Welcome to My Portfolio</div>
+          </div>
+          <div class="slide">
+            <img src="/media/slide2.jpg" alt="Slide 2">
+            <div class="caption">Exploring Technology and Creativity</div>
+          </div>
+          <div class="slide">
+            <img src="/media/slide3.jpg" alt="Slide 3">
+            <div class="caption">Projects, Research, and Growth</div>
+          </div>
+        </div>
+
+        <style>
+          .slider {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            height: 400px;
+            position: relative;
+          }
+          .slide {
+            min-width: 100%;
+            transition: transform 1s ease;
+            position: relative;
+          }
+          .slider img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+          }
+          .caption {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+          }
+          @keyframes slide {
+            0% {transform: translateX(0);}
+            33% {transform: translateX(-100%);}
+            66% {transform: translateX(-200%);}
+            100% {transform: translateX(0);}
+          }
+          .autoplay {
+            animation: slide 12s infinite;
+          }
+        </style>
     design:
       columns: '1'
       
