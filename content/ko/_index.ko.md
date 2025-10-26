@@ -63,6 +63,8 @@ sections:
               <div class="caption">프로젝트</div>
             </div>
           </div>
+          <button class="nav prev" aria-label="Previous slide">‹</button>
+          <button class="nav next" aria-label="Next slide">›</button>
         </div>
 
         <style>
@@ -90,15 +92,35 @@ sections:
           }
           .caption {
             position: absolute;
-            bottom: 20px;
+            top: 50%;
             left: 50%;
-            transform: translateX(-50%);
+            transform: translate(-50%, -50%);
             color: white;
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: bold;
-            text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+            text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+            text-align: center;
             pointer-events: none;
           }
+          .nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 48px;
+            height: 48px;
+            border: none;
+            border-radius: 9999px;
+            background: rgba(0,0,0,0.4);
+            color: #fff;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s ease;
+          }
+          .nav:hover { background: rgba(0,0,0,0.6); }
+          .nav.prev { left: 15px; }
+          .nav.next { right: 15px; }
           /* 5 slides: hold each state briefly for readability */
           @keyframes slide {
             0%, 16%   { transform: translateX(0%); }
