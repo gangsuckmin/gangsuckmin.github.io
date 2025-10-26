@@ -4,7 +4,7 @@ summary: Take full control of your personal brand and privacy by migrating away 
 date: 2023-10-27
 
 # Featured images
-# Place an images named `featured.jpg/png` in this page's folder and customize its options here.
+# Place an images named `featured.png/png` in this page's folder and customize its options here.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 

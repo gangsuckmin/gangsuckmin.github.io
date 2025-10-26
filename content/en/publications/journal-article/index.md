@@ -52,7 +52,7 @@ links:
     url: ""
 
 # Featured images
-# To use, add an images named `featured.jpg/png` to your page's folder. 
+# To use, add an images named `featured.png/png` to your page's folder. 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
