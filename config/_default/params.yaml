@@ -14,7 +14,7 @@ params:
 # SEO
 marketing:
   seo:
-    image: "media/favicon.png"
+    image: "media/chiwawa.png"
     site_type: Person
     local_business_type: ''
     org_name: '전북대학교 컴퓨터공학부 강석민'

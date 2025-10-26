@@ -22,6 +22,7 @@ sections:
       button:
         text: 자기소개
         url: /uploads/resume.pdf
+        style: outline
       headings:
         about: '강석민'
         education: '전북대학교'

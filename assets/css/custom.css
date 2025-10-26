@@ -16,3 +16,16 @@
 [data-theme="dark"] {
     --color-background: #0f172a;  /* 어두운 남색 계열 */
 }
+
+btn-outline:hover
+{
+    background-color: var(--color-primary);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover
+{
+    filter: brightness(0.9);
+    transition: filter 0.2s ease-in-out;
+}
