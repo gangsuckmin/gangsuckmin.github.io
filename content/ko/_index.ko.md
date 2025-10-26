@@ -40,38 +40,53 @@ sections:
       title: '홈페이지 소개'
       subtitle: 'PB1'
       text: |-
-        <div class="slider autoplay">
-          <div class="slide">
-            <img src="/media/slide1.jpg" alt="Slide 1">
-            <div class="caption">Welcome to My Portfolio</div>
-          </div>
-          <div class="slide">
-            <img src="/media/slide2.jpg" alt="Slide 2">
-            <div class="caption">Exploring Technology and Creativity</div>
-          </div>
-          <div class="slide">
-            <img src="/media/slide3.jpg" alt="Slide 3">
-            <div class="caption">Projects, Research, and Growth</div>
+        <div class="slider">
+          <div class="slides autoplay">
+            <div class="slide">
+              <img src="/media/slide1.jpg" alt="Slide 1">
+              <div class="caption">자기 소개</div>
+            </div>
+            <div class="slide">
+              <img src="/media/slide2.jpg" alt="Slide 2">
+              <div class="caption">소속</div>
+            </div>
+            <div class="slide">
+              <img src="/media/slide3.jpg" alt="Slide 3">
+              <div class="caption">전공</div>
+            </div>
+            <div class="slide">
+              <img src="/media/slide4.jpg" alt="Slide 4">
+              <div class="caption">경력</div>
+            </div>
+            <div class="slide">
+              <img src="/media/slide5.jpg" alt="Slide 5">
+              <div class="caption">프로젝트</div>
+            </div>
           </div>
         </div>
 
         <style>
           .slider {
-            display: flex;
             overflow: hidden;
             width: 100%;
             height: 400px;
             position: relative;
           }
+          .slides {
+            display: flex;
+            height: 100%;
+            animation: slide 20s infinite;
+          }
           .slide {
-            min-width: 100%;
-            transition: transform 1s ease;
+            flex: 0 0 100%;
+            height: 100%;
             position: relative;
           }
           .slider img {
             width: 100%;
-            height: 400px;
+            height: 100%;
             object-fit: cover;
+            display: block;
           }
           .caption {
             position: absolute;
@@ -82,15 +97,16 @@ sections:
             font-size: 2rem;
             font-weight: bold;
             text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+            pointer-events: none;
           }
+          /* 5 slides: hold each state briefly for readability */
           @keyframes slide {
-            0% {transform: translateX(0);}
-            33% {transform: translateX(-100%);}
-            66% {transform: translateX(-200%);}
-            100% {transform: translateX(0);}
-          }
-          .autoplay {
-            animation: slide 12s infinite;
+            0%, 16%   { transform: translateX(0%); }
+            20%, 36%  { transform: translateX(-100%); }
+            40%, 56%  { transform: translateX(-200%); }
+            60%, 76%  { transform: translateX(-300%); }
+            80%, 96%  { transform: translateX(-400%); }
+            100%      { transform: translateX(0%); }
           }
         </style>
     design:
